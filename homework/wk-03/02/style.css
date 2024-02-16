@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Coding Challenge 2
+
+   Filename: style.css
+
+*/
+
+nav {
+    width: 250px;
+    float: left;
+    height: 400px;
+    background-color: rgb(39, 94, 48);
+    padding: 10px;
+}
+
+body {
+    width: 900px;
+}
+
+p.first::first-letter {
+    font-size: 18pt;
+}
+
+a {
+    color: ivory;
+    text-decoration: none;
+}
+
+article {
+    width: 500px;
+    float: left;
+    margin-left: 40px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: "Impact", sans-serif;
+    font-size: 3em;
+}
+
+nav > h1 {
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+nav > ul {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+article > h1 {
+    font-size: 2em;
+    font-family: cursive;
+}
